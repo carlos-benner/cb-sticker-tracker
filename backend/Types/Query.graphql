@@ -1,0 +1,4 @@
+type Query {
+  stickers: [Sticker!],
+  sticker(stickerId: ID! ): Sticker
+}

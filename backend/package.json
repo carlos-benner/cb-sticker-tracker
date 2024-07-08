@@ -1,0 +1,14 @@
+{
+  "name": "cb-sticker-tracker-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js",
+    "dev": "node --loader ts-node/esm ./index.ts"
+  },
+  "keywords": [],
+  "author": "Carlos Benner",
+  "description": ""
+}

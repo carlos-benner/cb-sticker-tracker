@@ -1,0 +1,9 @@
+type Sticker {
+    _id: ID!,
+    name: String!,
+    thumbnail: String!,
+    properties: String,
+    createdBy: User!, 
+    createdAt: String!,
+    updatedAt: String
+}   
