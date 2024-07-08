@@ -7,6 +7,7 @@
     "dev": "npm --prefix ./frontend run dev & npm --prefix ./backend run dev",
     "start": "npm --prefix ./backend run start & npm --prefix ./frontend run start",
     "build": "npm --prefix ./backend run build & npm --prefix ./frontend run build",
+    "lint": "eslint --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -41,6 +42,7 @@
     "globals": "^15.8.0",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.15.0"
   }
 }
